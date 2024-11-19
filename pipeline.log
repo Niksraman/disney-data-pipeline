@@ -1,0 +1,20 @@
+2024-11-18 14:00:00 - INFO - Logging is configured.
+2024-11-18 14:00:01 - INFO - Starting preprocessing pipeline...
+2024-11-18 14:00:01 - INFO - Loading dataset from: data.json
+2024-11-18 14:00:02 - INFO - Dataset loaded successfully with 100 rows and 5 columns.
+2024-11-18 14:00:02 - INFO - load_data executed in 1.00 seconds.
+2024-11-18 14:00:02 - INFO - Preprocessing text column: description
+2024-11-18 14:00:03 - INFO - preprocess_text_column executed in 0.80 seconds.
+2024-11-18 14:00:03 - INFO - Handling missing values...
+2024-11-18 14:00:03 - INFO - Filled missing values in 'name' with 'Unknown'.
+2024-11-18 14:00:03 - INFO - Filled missing values in 'description' with 'No description available.'
+2024-11-18 14:00:03 - INFO - handle_missing_values executed in 0.20 seconds.
+2024-11-18 14:00:03 - INFO - Normalizing dates in column: created_at
+2024-11-18 14:00:03 - INFO - normalize_dates executed in 0.15 seconds.
+2024-11-18 14:00:03 - INFO - Storing data in database table: preprocessed_table
+2024-11-18 14:00:03 - INFO - Data stored successfully in table: preprocessed_table
+2024-11-18 14:00:03 - INFO - store_data executed in 0.50 seconds.
+2024-11-18 14:00:03 - INFO - Generating embeddings with model: sentence-transformers/all-MiniLM-L6-v2
+2024-11-18 14:00:04 - INFO - Generated embeddings for 100 texts.
+2024-11-18 14:00:04 - INFO - generate_embeddings executed in 1.20 seconds.
+2024-11-18 14:00:
